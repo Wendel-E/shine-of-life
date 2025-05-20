@@ -25,8 +25,8 @@ textarea {
   font-size: 1rem;
   color: #fff;
   background-color: #333;
-  border: 0px solid #555;
-  border-radius: 0px;
+  border: 1rem solid #555;
+  border-radius: 1rem;
   resize: vertical;
   outline: none;
 }
