@@ -21,12 +21,13 @@ textarea {
   width: 76%;
   height: 150px;
   padding: 10px;
+  font-color: #fff;
   font-family: 'Segoe UI', sans-serif;
   font-size: 1rem;
   color: #333;
   background-color: #333;
-  border: 2px solid #555;
-  border-radius: 2px;
+  border: 0px solid #555;
+  border-radius: 0px;
   resize: vertical;
   outline: none;
 }
