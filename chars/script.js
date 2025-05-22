@@ -18,9 +18,6 @@ textareas.forEach(textarea => {
 });
 
 const textarea = document.getElementById('d-hp');
-const textarea = document.getElementById('d-mp');
-const textarea = document.getElementById('d-eqp');
-const textarea = document.getElementById('d-inv');
 
   // Carrega o conteúdo salvo, se existir
   textarea.value = localStorage.getItem('textoSalvo') || '';
