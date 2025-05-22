@@ -17,7 +17,10 @@ textareas.forEach(textarea => {
   });
 });
 
-const textarea = document.getElementById('meu-texto');
+const textarea = document.getElementById('d-skill1');
+const textarea = document.getElementById('d-skill2');
+const textarea = document.getElementById('d-skill3');
+const textarea = document.getElementById('d-skill4');
 
   // Carrega o conteúdo salvo, se existir
   textarea.value = localStorage.getItem('textoSalvo') || '';
