@@ -6,23 +6,3 @@ accordions.forEach(btn => {
     content.style.display = content.style.display === "block" ? "none" : "block";
   });
 });
-
-const textareas = document.querySelectorAll('textarea');
-
-textareas.forEach(textarea => {
-  textarea.setAttribute('style', 'height:auto;overflow-y:hidden;');
-  textarea.addEventListener('input', () => {
-    textarea.style.height = 'auto'; // Reseta a altura
-    textarea.style.height = textarea.scrollHeight + 'px'; // Ajusta para a altura do conteúdo
-  });
-});
-
-const textarea = document.getElementById('d-hp');
-
-  // Carrega o conteúdo salvo, se existir
-  textarea.value = localStorage.getItem('textoSalvo') || '';
-
-  // Salva sempre que o usuário digitar
-  textarea.addEventListener('input', () => {
-    localStorage.setItem('textoSalvo', textarea.value);
-  });
